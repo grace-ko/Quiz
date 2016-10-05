@@ -53,7 +53,6 @@ $(document).ready(function() {
         }else{
             
             $('.answerList').append(quiz[questionList].question+'<br>'+finalAnswer+'<br>'+'<br>');
-            alert("Sorry, incorrect!");
             $('.score').html("Score:"+" "+correctAnswerCount+" "+'of'+ " "+quiz.length);
         }
             
