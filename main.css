@@ -2,29 +2,28 @@ ul {
     list-style: none;
 }
 
-body { 
+body {
     background-image: url('background.jpg');
     background-color: black;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: 100% 100%;
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 18px;
 }
 
-header{
-	font-family: 'Gloria Hallelujah', cursive;
-	font-size: 20px;
-	color: #ebebe0;
+header {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    color: #ebebe0;
 }
 
 main {
-	margin-top: 5%;
-	margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
 }
-
 
 button {
     background-color: #cc6699;
@@ -36,16 +35,15 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-	font-family: 'Architects Daughter', cursive;
-	font-weight: bold;
-}
-button:hover {
-	transition: 0.5s;
-	background-color: #00cc99;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
 }
 
+button:hover {
+    transition: 0.5s;
+    background-color: #00cc99;
+}
 
 .congrats {
-	font-size: 24px;
+    font-size: 24px;
 }
-
